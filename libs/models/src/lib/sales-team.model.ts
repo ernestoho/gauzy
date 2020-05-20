@@ -1,16 +1,16 @@
 import { BaseEntityModel } from './base-entity.model';
 import { Organization, OrganizationFindInput } from './organization.model';
 
-export interface SaleTeam extends BaseEntityModel, SaleTeamCreateInput {
+export interface SalesTeam extends BaseEntityModel, SalesTeamCreateInput {
 	organization?: Organization;
 }
 
-export interface SaleTeamCreateInput {
+export interface SalesTeamCreateInput {
 	organizationId?: string;
 	name: string;
 }
 
-export interface SaleTeamFindInput {
+export interface SalesTeamFindInput {
 	organization?: OrganizationFindInput;
 	organizationId?: string;
 	name?: string;

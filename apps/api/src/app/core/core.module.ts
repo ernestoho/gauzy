@@ -78,7 +78,7 @@ import { RequestApproval } from '../request-approval/request-approval.entity';
 import { RequestApprovalEmployee } from '../request-approval-employee/request-approval-employee.entity';
 import { ApprovalPolicy } from '../approval-policy/approval-policy.entity';
 import { EventType } from '../event-types/event-type.entity';
-import { SaleTeam } from '../sale-team/sale-team.entity';
+import { SalesTeam } from '../sale-team/sale-team.entity';
 
 const entities = [
 	Invite,
@@ -152,7 +152,7 @@ const entities = [
 	AppointmentEmployees,
 	EventType,
 
-	SaleTeam
+	SalesTeam
 ];
 
 @Module({
